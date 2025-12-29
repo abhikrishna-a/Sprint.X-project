@@ -1,0 +1,639 @@
+{
+  "users": [
+    {
+      "id": "1db3",
+      "name": "Abhikrishna A",
+      "email": "abhikrishna616@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "createdAt": "2025-12-15T17:45:43.021Z"
+    },
+    {
+      "id": "cc32",
+      "name": "Admin user",
+      "email": "admin@gmail.com",
+      "password": "12345",
+      "role": "admin",
+      "createdAt": "2025-12-16T07:44:22.892Z"
+    },
+    {
+      "id": "28a5",
+      "name": "appu",
+      "email": "appu@gmail.com",
+      "password": "12345",
+      "createdAt": "2025-12-16T09:06:27.618Z"
+    },
+    {
+      "id": "a6ce",
+      "name": "sheeba",
+      "email": "sheebakc@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "createdAt": "2025-12-18T11:34:52.774Z",
+      "updatedAt": "2025-12-18T11:34:52.774Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Nike Pegasus 41",
+      "price": 129.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5e2bbe6f-36ed-499c-b1b2-7b0d615749ae/AIR+ZOOM+PEGASUS+41.png",
+      "category": "Sneakers",
+      "description": "High-performance running shoes with superior cushioning and breathable mesh upper.",
+      "rating": 4.5,
+      "reviewCount": 128,
+      "material": "Mesh & Synthetic",
+      "color": "Red",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5e2bbe6f-36ed-499c-b1b2-7b0d615749ae/AIR+ZOOM+PEGASUS+41.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/98456214-3deb-4fff-9f5c-8da51aae7159/AIR+ZOOM+PEGASUS+41.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/25254956-b46b-4fb0-9b3a-4da805233df9/AIR+ZOOM+PEGASUS+41.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4128abbd-394d-408b-923a-bbd0c8c6015c/AIR+ZOOM+PEGASUS+41.png"
+      ],
+      "stock": 20,
+      "updatedAt": "2025-12-19T08:31:13.008Z"
+    },
+    {
+      "id": "2",
+      "name": "Nike SuperRep Go 3",
+      "price": 149.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/63e33fa1-f3ba-4453-a968-1a4690fd2ec4/NIKE+FREE+2025.png",
+      "category": "Sneakers",
+      "description": "High-top shoes with ankle support and superior grip for court performance.",
+      "rating": 4.8,
+      "reviewCount": 92,
+      "material": "Leather & Mesh",
+      "color": "University Red/Bright Crimson",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/63e33fa1-f3ba-4453-a968-1a4690fd2ec4/NIKE+FREE+2025.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/8a5d95f7-6cbd-4aea-86f3-d106fe3098ec/NIKE+FREE+2025.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d999e838-c7ba-4407-a63e-8873c37c3f18/NIKE+FREE+2025.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d6414956-3768-4241-b250-f55f81faf8e7/NIKE+FREE+2025.png"
+      ],
+      "stock": 5,
+      "updatedAt": "2025-12-19T10:36:59.838Z"
+    },
+    {
+      "id": "3",
+      "name": "Nike Vomero Premium",
+      "price": 165.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+      "category": "Sneakers",
+      "description": "Mono-blended upper meets a plush collar and tongue for step in comfort",
+      "rating": 4.2,
+      "reviewCount": 130,
+      "material": "Leather & Mesh",
+      "color": "Black/Anthracite/Volt/Iron Grey",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a152ecf4-37b1-4589-8ddc-42b532930579/NIKE+VOMERO+PREMIUM.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ed596821-31c8-4ce5-8019-1dca030ea2d8/NIKE+VOMERO+PREMIUM.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/1aad418e-e339-44a1-a6b8-3e0b8a96b5cd/NIKE+VOMERO+PREMIUM.png"
+      ],
+      "stock": 26,
+      "updatedAt": "2025-12-19T09:32:52.281Z"
+    },
+    {
+      "id": "4",
+      "name": "Nike Revolution 71",
+      "price": 139.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto/450ed1df-8e17-4d87-a244-85697874661c/NIKE+REVOLUTION+7.png",
+      "category": "Sneakers",
+      "description": "lightweight, clean design that feels as good as it looks.",
+      "rating": 4.9,
+      "reviewCount": 90,
+      "material": "Leather & Mesh",
+      "color": "Armoury Navy",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto/450ed1df-8e17-4d87-a244-85697874661c/NIKE+REVOLUTION+7.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5816cd58-7f69-437f-b725-ee3e316bee2c/NIKE+REVOLUTION+7.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/41ee2443-d888-4d05-a55b-29b049f04ce0/NIKE+REVOLUTION+7.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/7160b6dd-4b05-4cf9-88f4-2394ac58288c/NIKE+REVOLUTION+7.png"
+      ],
+      "stock": 26,
+      "updatedAt": "2025-12-19T09:23:48.649Z"
+    },
+    {
+      "id": "6",
+      "name": "Nike Pegasus Premium",
+      "price": 145.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e60c0de2-8f4d-450e-ac4f-9032744fe6a2/W+NIKE+PEGASUS+PREMIUM.png",
+      "category": "Sneakers",
+      "description": "ZoomX foam in the midsole and ReactX foam in the heel create a new cushioning system—for a smooth, propulsive ride.",
+      "rating": 4.7,
+      "reviewCount": 120,
+      "material": "Leather & Mesh",
+      "color": "Sail/Metallic Silver/Pure Platinum/Off-Noir",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e60c0de2-8f4d-450e-ac4f-9032744fe6a2/W+NIKE+PEGASUS+PREMIUM.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c3386cc5-09a7-4dee-864d-e3097f0cd65a/W+NIKE+PEGASUS+PREMIUM.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2549679f-ce97-4aac-a74d-1aa4dfd55c36/W+NIKE+PEGASUS+PREMIUM.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/474d06f2-96fc-4f31-b5be-947f2642949f/W+NIKE+PEGASUS+PREMIUM.png"
+      ],
+      "stock": 42,
+      "updatedAt": "2025-12-19T09:33:03.598Z"
+    },
+    {
+      "id": "7",
+      "name": "Nike Zoom Fly 6",
+      "price": 146.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/350dcfaf-baee-41c6-bd73-277474d9f6f9/W+ZOOM+FLY+6.png",
+      "category": "Sneakers",
+      "description": "lightweight, clean design that feels as good as it looks.",
+      "rating": 4.4,
+      "reviewCount": 100,
+      "material": "Leather & Mesh",
+      "color": "SPink Spell/Crimson Tint/Hyper Pink/Bordeaux",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/350dcfaf-baee-41c6-bd73-277474d9f6f9/W+ZOOM+FLY+6.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/852113d7-d0bf-4081-9166-490f926e3f50/W+ZOOM+FLY+6.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/15f6881f-c79c-4ffd-9e79-ddab26e14934/W+ZOOM+FLY+6.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ebc4dcef-346a-4342-8c31-404f99b27c09/W+ZOOM+FLY+6.png"
+      ],
+      "stock": 23,
+      "updatedAt": "2025-12-19T09:33:27.591Z"
+    },
+    {
+      "id": "8",
+      "name": "Nike Vomero 18",
+      "price": 170.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/de55355e-114f-4e10-9896-209d89baa822/W+NIKE+VOMERO+18.png",
+      "category": "Sneakers",
+      "description": "We placed pods around the outsole to help enhance agility and for smoother heel-to-toe transitions.",
+      "rating": 4.7,
+      "reviewCount": 135,
+      "material": "Leather & Mesh",
+      "color": "Black/Cyber/Light Lemon Twist/Volt",
+      "size": " 7-13",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/de55355e-114f-4e10-9896-209d89baa822/W+NIKE+VOMERO+18.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6e711415-c9bf-4ea1-b786-9ceba5a02fc4/W+NIKE+VOMERO+18.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2c1b7a54-501f-4742-9546-9d44b3fdec26/W+NIKE+VOMERO+18.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f37bd412-660e-4dc5-894e-51ede9e9961b/W+NIKE+VOMERO+18.png"
+      ],
+      "stock": 22,
+      "updatedAt": "2025-12-19T09:33:38.680Z"
+    },
+    {
+      "id": "9",
+      "name": "Nike Trail Solar Chase",
+      "price": 29.99,
+      "image": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/4c8aa7bc-c9c3-44a5-9c8c-70918c5e164d/AS+M+NK+DFADV+SOLAR+CHASE+SS.png",
+      "category": "Cloth",
+      "description": "1Men's Dri-FIT ADV Short-Sleeve Running Top",
+      "rating": 4.3,
+      "reviewCount": 89,
+      "material": "Synthetic",
+      "color": " Cannon",
+      "size": "S-XXL",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/4c8aa7bc-c9c3-44a5-9c8c-70918c5e164d/AS+M+NK+DFADV+SOLAR+CHASE+SS.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/84358823-ba33-42d0-a058-55342544df28/AS+M+NK+DFADV+SOLAR+CHASE+SS.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e5ac8467-6c84-406b-b08c-0b1161eee44f/AS+M+NK+DFADV+SOLAR+CHASE+SS.png"
+      ],
+      "stock": 32,
+      "updatedAt": "2025-12-19T09:33:46.274Z"
+    },
+    {
+      "id": "10",
+      "name": "Nike Stride",
+      "price": 26.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/eef77368-5633-45ec-a534-c6b99b0d6188/AS+M+NK+DFADV+STRIDE+ENERGY+SS.png",
+      "category": "Cloth",
+      "description": "Men's Dri-FIT ADV Short-Sleeve Running Top.",
+      "rating": 4.7,
+      "reviewCount": 70,
+      "material": "Synthetic",
+      "color": "Sail",
+      "size": "S-XXL",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/eef77368-5633-45ec-a534-c6b99b0d6188/AS+M+NK+DFADV+STRIDE+ENERGY+SS.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a8975290-389a-4cb2-af0d-948ced884a2d/AS+M+NK+DFADV+STRIDE+ENERGY+SS.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c991c325-5110-4c3b-b3eb-cee0226b25aa/AS+M+NK+DFADV+STRIDE+ENERGY+SS.png"
+      ],
+      "stock": 42,
+      "updatedAt": "2025-12-19T09:34:11.986Z"
+    },
+    {
+      "id": "11",
+      "name": "Jordan Sport Classic",
+      "price": 29.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/15dbaa97-5585-4744-9a2b-17fe5efeac22/M+J+SPRT+CLSSC+JACKET.png",
+      "category": "Cloth",
+      "description": "Men's Jacket",
+      "rating": 4.4,
+      "reviewCount": 69,
+      "material": "Synthetic",
+      "color": " Black/White",
+      "size": "S-XXL",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/15dbaa97-5585-4744-9a2b-17fe5efeac22/M+J+SPRT+CLSSC+JACKET.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e81a7ab8-98a2-4a26-beb2-5119059df15a/M+J+SPRT+CLSSC+JACKET.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d876478f-6036-4663-81a2-6a26d00ba27a/M+J+SPRT+CLSSC+JACKET.png"
+      ],
+      "stock": 48,
+      "updatedAt": "2025-12-19T09:34:25.279Z"
+    },
+    {
+      "id": "12",
+      "name": "Nike Swift",
+      "price": 25.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c344bdc1-4758-40fc-8b00-e2e1420e52b2/AS+W+NK+SWIFT+DF+TANK+TOP.png",
+      "category": "Cloth",
+      "description": "Women's Dri-FIT Running Tank Top.",
+      "rating": 4.6,
+      "reviewCount": 105,
+      "material": "Synthatic",
+      "color": "Sail",
+      "size": "S-XXL",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c344bdc1-4758-40fc-8b00-e2e1420e52b2/AS+W+NK+SWIFT+DF+TANK+TOP.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/09e0faad-81e6-4f47-8742-94fce03423b1/AS+W+NK+SWIFT+DF+TANK+TOP.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4f5d16fe-ac67-4754-84cb-03885683a35e/AS+W+NK+SWIFT+DF+TANK+TOP.png"
+      ],
+      "stock": 37,
+      "updatedAt": "2025-12-19T09:34:41.380Z"
+    },
+    {
+      "id": "13",
+      "name": "Nike Sportswear Windrunner",
+      "price": 26.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ce58b75d-0c08-4660-93c1-e146839ae04b/AS+W+NSW+OS+WR+JKT.png",
+      "category": "Cloth",
+      "description": "Women's Oversized Jacket",
+      "rating": 4.2,
+      "reviewCount": 78,
+      "material": "Synthetic",
+      "color": " Black/Black/Sail",
+      "size": "S-XXL",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ce58b75d-0c08-4660-93c1-e146839ae04b/AS+W+NSW+OS+WR+JKT.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e02cd408-e6dc-4317-b4c3-589f6fdf10aa/AS+W+NSW+OS+WR+JKT.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fd7eede4-9ec8-4656-83e3-27e504d61d70/AS+W+NSW+OS+WR+JKT.png"
+      ],
+      "stock": 24,
+      "updatedAt": "2025-12-19T09:34:54.936Z"
+    },
+    {
+      "id": "14",
+      "name": "Nike Swift",
+      "price": 28.99,
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/793e91fe-e7dd-4080-8efc-c81555f68d75/AS+W+NK+SWIFT+NVLT+DF+JKT.png",
+      "category": "Cloth",
+      "description": "Women's Dri-FIT Packable Running Jacket",
+      "rating": 4.5,
+      "reviewCount": 98,
+      "material": "Synthetic",
+      "color": " Black/Anthracite",
+      "size": "S-XXL",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/793e91fe-e7dd-4080-8efc-c81555f68d75/AS+W+NK+SWIFT+NVLT+DF+JKT.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/110b513b-4763-488b-9763-8d18d39e359c/AS+W+NK+SWIFT+NVLT+DF+JKT.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6583904a-3988-4ffd-82c4-38c36772a2ec/AS+W+NK+SWIFT+NVLT+DF+JKT.png"
+      ],
+      "stock": 21,
+      "updatedAt": "2025-12-19T09:35:02.093Z"
+    },
+    {
+      "id": "16",
+      "name": "Instinct® Crossover",
+      "price": 44.99,
+      "image": "https://cmsprod.garmin-india.com/media/Screenshot%202024-08-10%20145905-1.webp",
+      "category": "Fitbands",
+      "description": "Standard Edition",
+      "rating": 4.4,
+      "reviewCount": 77,
+      "material": "Silicone & Aluminum",
+      "color": "Black",
+      "size": "One Size",
+      "images": [
+        "https://cmsprod.garmin-india.com/media/Screenshot%202024-08-10%20145905-1.webp",
+        "https://cmsprod.garmin-india.com/media/Screenshot%202024-08-10%20145949.webp",
+        "https://cmsprod.garmin-india.com/media/Screenshot%202024-08-10%20150011.webp"
+      ],
+      "stock": 36,
+      "updatedAt": "2025-12-19T09:35:17.299Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Sneakers"
+    },
+    {
+      "id": "2",
+      "name": "Cloth"
+    },
+    {
+      "id": "3",
+      "name": "Fitbands"
+    }
+  ],
+  "carts": [
+    {
+      "id": "286d",
+      "userId": "15e4",
+      "items": [],
+      "createdAt": "2025-12-12T05:20:20.095Z",
+      "updatedAt": "2025-12-15T07:20:24.038Z"
+    },
+    {
+      "id": "60db",
+      "userId": "f5cc",
+      "items": [],
+      "createdAt": "2025-12-15T07:32:29.246Z",
+      "updatedAt": "2025-12-15T08:19:47.695Z"
+    },
+    {
+      "id": "cb55",
+      "userId": "2efb",
+      "items": [],
+      "createdAt": "2025-12-15T16:22:32.273Z",
+      "updatedAt": "2025-12-15T17:39:00.367Z"
+    },
+    {
+      "id": "c2f5",
+      "userId": "1db3",
+      "items": [],
+      "createdAt": "2025-12-15T17:45:43.049Z",
+      "updatedAt": "2025-12-29T05:12:39.848Z"
+    },
+    {
+      "id": "70b3",
+      "userId": "cc32",
+      "items": [],
+      "createdAt": "2025-12-16T07:44:22.914Z",
+      "updatedAt": "2025-12-20T11:16:40.147Z"
+    },
+    {
+      "id": "e50d",
+      "userId": "28a5",
+      "items": [],
+      "createdAt": "2025-12-16T09:06:27.663Z",
+      "updatedAt": "2025-12-16T09:06:27.663Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "cf0b",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "16",
+          "name": "Instinct® Crossover",
+          "price": 44.99,
+          "image": "https://cmsprod.garmin-india.com/media/Screenshot%202024-08-10%20145905-1.webp",
+          "category": "Fitbands",
+          "description": "Standard Edition",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 44.99,
+      "shipping": 10,
+      "tax": 3.5992,
+      "total": 54.99,
+      "date": "2025-12-19T08:34:31.774Z",
+      "status": "delivered",
+      "orderNumber": "ORD-1766133271774",
+      "updatedAt": "2025-12-19T10:37:59.838Z"
+    },
+    {
+      "id": "e8ba",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "7",
+          "name": "Nike Zoom Fly 6",
+          "price": 146.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/350dcfaf-baee-41c6-bd73-277474d9f6f9/W+ZOOM+FLY+6.png",
+          "category": "Sneakers",
+          "description": "lightweight, clean design that feels as good as it looks.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 146.99,
+      "shipping": 10,
+      "tax": 11.759200000000002,
+      "total": 156.99,
+      "date": "2025-12-19T08:45:42.735Z",
+      "status": "pending",
+      "orderNumber": "ORD-1766133942735"
+    },
+    {
+      "id": "bba1",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "3",
+          "name": "Nike Vomero Premium",
+          "price": 165.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+          "category": "Sneakers",
+          "description": "Mono-blended upper meets a plush collar and tongue for step in comfort",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Nike Revolution 71",
+          "price": 139.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto/450ed1df-8e17-4d87-a244-85697874661c/NIKE+REVOLUTION+7.png",
+          "category": "Sneakers",
+          "description": "lightweight, clean design that feels as good as it looks.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 305.98,
+      "shipping": 10,
+      "tax": 24.4784,
+      "total": 315.98,
+      "date": "2025-12-19T10:40:55.380Z",
+      "status": "delivered",
+      "orderNumber": "ORD-1766140855380",
+      "updatedAt": "2025-12-19T10:42:06.195Z"
+    },
+    {
+      "id": "ecbc",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "4_1/B  Thusharam house kakkur P O, Kozhikode, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "7",
+          "name": "Nike Zoom Fly 6",
+          "price": 146.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/350dcfaf-baee-41c6-bd73-277474d9f6f9/W+ZOOM+FLY+6.png",
+          "category": "Sneakers",
+          "description": "lightweight, clean design that feels as good as it looks.",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "name": "Nike Vomero 18",
+          "price": 170.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/de55355e-114f-4e10-9896-209d89baa822/W+NIKE+VOMERO+18.png",
+          "category": "Sneakers",
+          "description": "We placed pods around the outsole to help enhance agility and for smoother heel-to-toe transitions.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 317.98,
+      "shipping": 10,
+      "tax": 25.4384,
+      "total": 327.98,
+      "date": "2025-12-29T04:54:29.071Z",
+      "status": "pending",
+      "orderNumber": "ORD-1766984069071"
+    },
+    {
+      "id": "bec7",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "4_1/B  Thusharam house kakkur P O, Kozhikode, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "7",
+          "name": "Nike Zoom Fly 6",
+          "price": 146.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/350dcfaf-baee-41c6-bd73-277474d9f6f9/W+ZOOM+FLY+6.png",
+          "category": "Sneakers",
+          "description": "lightweight, clean design that feels as good as it looks.",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Nike Pegasus Premium",
+          "price": 145.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e60c0de2-8f4d-450e-ac4f-9032744fe6a2/W+NIKE+PEGASUS+PREMIUM.png",
+          "category": "Sneakers",
+          "description": "ZoomX foam in the midsole and ReactX foam in the heel create a new cushioning system—for a smooth, propulsive ride.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 292.98,
+      "shipping": 10,
+      "tax": 23.4384,
+      "total": 302.98,
+      "date": "2025-12-29T05:03:47.693Z",
+      "status": "pending",
+      "orderNumber": "ORD-1766984627693"
+    }
+  ],
+  "analytics": {
+    "monthlySales": [
+      {
+        "month": "Jan",
+        "sales": 4200
+      },
+      {
+        "month": "Feb",
+        "sales": 3800
+      },
+      {
+        "month": "Mar",
+        "sales": 5100
+      },
+      {
+        "month": "Apr",
+        "sales": 6200
+      },
+      {
+        "month": "May",
+        "sales": 7300
+      },
+      {
+        "month": "Jun",
+        "sales": 8900
+      },
+      {
+        "month": "Jul",
+        "sales": 7500
+      },
+      {
+        "month": "Aug",
+        "sales": 8200
+      },
+      {
+        "month": "Sep",
+        "sales": 6800
+      },
+      {
+        "month": "Oct",
+        "sales": 9200
+      },
+      {
+        "month": "Nov",
+        "sales": 8500
+      },
+      {
+        "month": "Dec",
+        "sales": 9500
+      }
+    ],
+    "recentActivity": [
+      {
+        "id": 1,
+        "user": "Abhikrishna A",
+        "action": "placed order",
+        "time": "2 days ago"
+      },
+      {
+        "id": 2,
+        "user": "abhi krishna",
+        "action": "registered",
+        "time": "1 day ago"
+      },
+      {
+        "id": 3,
+        "user": "Admin User",
+        "action": "added product",
+        "time": "3 hours ago"
+      },
+      {
+        "id": 4,
+        "user": "Abhikrishna A",
+        "action": "added review",
+        "time": "5 hours ago"
+      }
+    ],
+    "categoryStats": [
+      {
+        "category": "Sneakers",
+        "revenue": 12560,
+        "orders": 92
+      },
+      {
+        "category": "Cloth",
+        "revenue": 3240,
+        "orders": 45
+      },
+      {
+        "category": "Fitbands",
+        "revenue": 928,
+        "orders": 12
+      }
+    ]
+  }
+}
