@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useShop } from '../context/ShopContext';
+import { toast } from "react-toastify";
+
 
 const Orders = () => {
   const { currentUser, fetchUserOrders } = useShop();
@@ -44,10 +46,10 @@ const Orders = () => {
             )
           );
           setCancellingOrderId(null);
-          alert('Order cancelled successfully!');
+          toast.success("Order cancelled successfully!");
         }, 500);
       } catch (error) {
-        alert('Failed to cancel order. Please try again.');
+        toast.error('Failed to cancel order. Please try again.');
         setCancellingOrderId(null);
       }
     }

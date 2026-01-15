@@ -363,21 +363,21 @@
       "userId": "1db3",
       "items": [],
       "createdAt": "2025-12-15T17:45:43.049Z",
-      "updatedAt": "2025-12-29T05:12:39.848Z"
+      "updatedAt": "2026-01-15T16:23:52.002Z"
     },
     {
       "id": "70b3",
       "userId": "cc32",
       "items": [],
       "createdAt": "2025-12-16T07:44:22.914Z",
-      "updatedAt": "2025-12-20T11:16:40.147Z"
+      "updatedAt": "2026-01-09T05:17:50.730Z"
     },
     {
       "id": "e50d",
       "userId": "28a5",
       "items": [],
       "createdAt": "2025-12-16T09:06:27.663Z",
-      "updatedAt": "2025-12-16T09:06:27.663Z"
+      "updatedAt": "2026-01-15T16:15:43.231Z"
     }
   ],
   "orders": [
@@ -404,9 +404,9 @@
       "tax": 3.5992,
       "total": 54.99,
       "date": "2025-12-19T08:34:31.774Z",
-      "status": "delivered",
+      "status": "cancelled",
       "orderNumber": "ORD-1766133271774",
-      "updatedAt": "2025-12-19T10:37:59.838Z"
+      "updatedAt": "2025-12-30T14:35:16.003Z"
     },
     {
       "id": "e8ba",
@@ -431,8 +431,9 @@
       "tax": 11.759200000000002,
       "total": 156.99,
       "date": "2025-12-19T08:45:42.735Z",
-      "status": "pending",
-      "orderNumber": "ORD-1766133942735"
+      "status": "processing",
+      "orderNumber": "ORD-1766133942735",
+      "updatedAt": "2025-12-30T14:35:04.274Z"
     },
     {
       "id": "bba1",
@@ -502,8 +503,9 @@
       "tax": 25.4384,
       "total": 327.98,
       "date": "2025-12-29T04:54:29.071Z",
-      "status": "pending",
-      "orderNumber": "ORD-1766984069071"
+      "status": "processing",
+      "orderNumber": "ORD-1766984069071",
+      "updatedAt": "2025-12-30T14:35:06.842Z"
     },
     {
       "id": "bec7",
@@ -537,8 +539,242 @@
       "tax": 23.4384,
       "total": 302.98,
       "date": "2025-12-29T05:03:47.693Z",
+      "status": "processing",
+      "orderNumber": "ORD-1766984627693",
+      "updatedAt": "2025-12-30T14:35:08.693Z"
+    },
+    {
+      "id": "f545",
+      "userId": "28a5",
+      "userEmail": "appu@gmail.com",
+      "userName": "appu",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "1",
+          "name": "Nike Pegasus 41",
+          "price": 129.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5e2bbe6f-36ed-499c-b1b2-7b0d615749ae/AIR+ZOOM+PEGASUS+41.png",
+          "category": "Sneakers",
+          "description": "High-performance running shoes with superior cushioning and breathable mesh upper.",
+          "rating": 4.5,
+          "reviewCount": 128,
+          "material": "Mesh & Synthetic",
+          "color": "Red",
+          "size": " 7-13",
+          "images": [
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5e2bbe6f-36ed-499c-b1b2-7b0d615749ae/AIR+ZOOM+PEGASUS+41.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/98456214-3deb-4fff-9f5c-8da51aae7159/AIR+ZOOM+PEGASUS+41.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/25254956-b46b-4fb0-9b3a-4da805233df9/AIR+ZOOM+PEGASUS+41.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4128abbd-394d-408b-923a-bbd0c8c6015c/AIR+ZOOM+PEGASUS+41.png"
+          ],
+          "stock": 20,
+          "updatedAt": "2025-12-19T08:31:13.008Z",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 259.98,
+      "shipping": 10,
+      "tax": 20.7984,
+      "total": 269.98,
+      "date": "2026-01-15T15:46:09.145Z",
       "status": "pending",
-      "orderNumber": "ORD-1766984627693"
+      "orderNumber": "ORD-1768491969145"
+    },
+    {
+      "id": "cf3b",
+      "userId": "28a5",
+      "userEmail": "appu@gmail.com",
+      "userName": "appu",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "1",
+          "name": "Nike Pegasus 41",
+          "price": 129.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5e2bbe6f-36ed-499c-b1b2-7b0d615749ae/AIR+ZOOM+PEGASUS+41.png",
+          "category": "Sneakers",
+          "description": "High-performance running shoes with superior cushioning and breathable mesh upper.",
+          "rating": 4.5,
+          "reviewCount": 128,
+          "material": "Mesh & Synthetic",
+          "color": "Red",
+          "size": " 7-13",
+          "images": [
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5e2bbe6f-36ed-499c-b1b2-7b0d615749ae/AIR+ZOOM+PEGASUS+41.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/98456214-3deb-4fff-9f5c-8da51aae7159/AIR+ZOOM+PEGASUS+41.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/25254956-b46b-4fb0-9b3a-4da805233df9/AIR+ZOOM+PEGASUS+41.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4128abbd-394d-408b-923a-bbd0c8c6015c/AIR+ZOOM+PEGASUS+41.png"
+          ],
+          "stock": 20,
+          "updatedAt": "2025-12-19T08:31:13.008Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 129.99,
+      "shipping": 10,
+      "tax": 10.3992,
+      "total": 139.99,
+      "date": "2026-01-15T15:50:02.566Z",
+      "status": "pending",
+      "orderNumber": "ORD-1768492202566"
+    },
+    {
+      "id": "2f64",
+      "userId": "28a5",
+      "userEmail": "appu@gmail.com",
+      "userName": "appu",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "2",
+          "name": "Nike SuperRep Go 3",
+          "price": 149.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/63e33fa1-f3ba-4453-a968-1a4690fd2ec4/NIKE+FREE+2025.png",
+          "category": "Sneakers",
+          "description": "High-top shoes with ankle support and superior grip for court performance.",
+          "rating": 4.8,
+          "reviewCount": 92,
+          "material": "Leather & Mesh",
+          "color": "University Red/Bright Crimson",
+          "size": " 7-13",
+          "images": [
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/63e33fa1-f3ba-4453-a968-1a4690fd2ec4/NIKE+FREE+2025.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/8a5d95f7-6cbd-4aea-86f3-d106fe3098ec/NIKE+FREE+2025.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d999e838-c7ba-4407-a63e-8873c37c3f18/NIKE+FREE+2025.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d6414956-3768-4241-b250-f55f81faf8e7/NIKE+FREE+2025.png"
+          ],
+          "stock": 5,
+          "updatedAt": "2025-12-19T10:36:59.838Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 149.99,
+      "shipping": 10,
+      "tax": 11.999200000000002,
+      "total": 159.99,
+      "date": "2026-01-15T15:57:30.828Z",
+      "status": "pending",
+      "orderNumber": "ORD-1768492650828"
+    },
+    {
+      "id": "aab5",
+      "userId": "28a5",
+      "userEmail": "appu@gmail.com",
+      "userName": "appu",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "3",
+          "name": "Nike Vomero Premium",
+          "price": 165.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+          "category": "Sneakers",
+          "description": "Mono-blended upper meets a plush collar and tongue for step in comfort",
+          "rating": 4.2,
+          "reviewCount": 130,
+          "material": "Leather & Mesh",
+          "color": "Black/Anthracite/Volt/Iron Grey",
+          "size": " 7-13",
+          "images": [
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a152ecf4-37b1-4589-8ddc-42b532930579/NIKE+VOMERO+PREMIUM.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ed596821-31c8-4ce5-8019-1dca030ea2d8/NIKE+VOMERO+PREMIUM.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/1aad418e-e339-44a1-a6b8-3e0b8a96b5cd/NIKE+VOMERO+PREMIUM.png"
+          ],
+          "stock": 26,
+          "updatedAt": "2025-12-19T09:32:52.281Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 165.99,
+      "shipping": 10,
+      "tax": 13.279200000000001,
+      "total": 175.99,
+      "date": "2026-01-15T16:06:22.755Z",
+      "status": "pending",
+      "orderNumber": "ORD-1768493182755"
+    },
+    {
+      "id": "8ed3",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "3",
+          "name": "Nike Vomero Premium",
+          "price": 165.99,
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+          "category": "Sneakers",
+          "description": "Mono-blended upper meets a plush collar and tongue for step in comfort",
+          "rating": 4.2,
+          "reviewCount": 130,
+          "material": "Leather & Mesh",
+          "color": "Black/Anthracite/Volt/Iron Grey",
+          "size": " 7-13",
+          "images": [
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe24429d-cac1-4b39-8e7e-fc9f05cf68b5/NIKE+VOMERO+PREMIUM.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a152ecf4-37b1-4589-8ddc-42b532930579/NIKE+VOMERO+PREMIUM.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ed596821-31c8-4ce5-8019-1dca030ea2d8/NIKE+VOMERO+PREMIUM.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/1aad418e-e339-44a1-a6b8-3e0b8a96b5cd/NIKE+VOMERO+PREMIUM.png"
+          ],
+          "stock": 26,
+          "updatedAt": "2025-12-19T09:32:52.281Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 165.99,
+      "shipping": 10,
+      "tax": 13.279200000000001,
+      "total": 175.99,
+      "date": "2026-01-15T16:16:08.991Z",
+      "status": "pending",
+      "orderNumber": "ORD-1768493768991"
+    },
+    {
+      "id": "09cf",
+      "userId": "1db3",
+      "userEmail": "abhikrishna616@gmail.com",
+      "userName": "Abhikrishna A",
+      "shippingAddress": "Kakkur, Kakkur- Punnasserry Road, Kakkur, Kerala 673613",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "id": "9",
+          "name": "Nike Trail Solar Chase",
+          "price": 29.99,
+          "image": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/4c8aa7bc-c9c3-44a5-9c8c-70918c5e164d/AS+M+NK+DFADV+SOLAR+CHASE+SS.png",
+          "category": "Cloth",
+          "description": "1Men's Dri-FIT ADV Short-Sleeve Running Top",
+          "rating": 4.3,
+          "reviewCount": 89,
+          "material": "Synthetic",
+          "color": " Cannon",
+          "size": "S-XXL",
+          "images": [
+            "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/4c8aa7bc-c9c3-44a5-9c8c-70918c5e164d/AS+M+NK+DFADV+SOLAR+CHASE+SS.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/84358823-ba33-42d0-a058-55342544df28/AS+M+NK+DFADV+SOLAR+CHASE+SS.png",
+            "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e5ac8467-6c84-406b-b08c-0b1161eee44f/AS+M+NK+DFADV+SOLAR+CHASE+SS.png"
+          ],
+          "stock": 32,
+          "updatedAt": "2025-12-19T09:33:46.274Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 29.99,
+      "shipping": 10,
+      "tax": 2.3992,
+      "total": 39.989999999999995,
+      "date": "2026-01-15T16:23:51.944Z",
+      "status": "pending",
+      "orderNumber": "ORD-1768494231944"
     }
   ],
   "analytics": {

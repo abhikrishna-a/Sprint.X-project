@@ -14,11 +14,22 @@ import Register from './pages/Register';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Admin from './pages/admin/Admin';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
     <Router>
       <ShopProvider>
+          
+         <>
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+      />
+      {/* your routes / layouts */}
+    </>
         <Routes>
           {/* Main layout with Navbar & Footer for regular pages */}
           <Route element={<MainLayout />}>

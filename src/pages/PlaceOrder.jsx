@@ -69,44 +69,77 @@ const PlaceOrder = () => {
     }
   };
 
-  if (orderSuccess) {
-    return (
-      <div className="min-h-screen bg-gray-50 py-12">
-        <div className="max-w-3xl mx-auto px-4">
-          <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
-            <div className="flex justify-center mb-6">
-              <div className="bg-green-100 p-4 rounded-full">
-                <CheckCircle className="h-16 w-16 text-green-600" />
-              </div>
-            </div>
-            
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Order Placed Successfully!</h2>
-            <p className="text-gray-600 mb-6">Thank you for your purchase. We'll process your order shortly.</p>
-            
-            <div className="bg-gray-50 rounded-xl p-6 mb-8">
-              <p className="text-lg font-semibold text-gray-900 mb-2">Order Number</p>
-              <p className="text-2xl font-bold text-blue-600">{orderDetails.orderNumber}</p>
-            </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={() => navigate('/orders')}
-                className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
-              >
-                View My Orders
-              </button>
-              <button
-                onClick={() => navigate('/')}
-                className="w-full bg-gray-200 text-gray-800 py-3 px-4 rounded-lg font-medium hover:bg-gray-300 transition-colors duration-200"
-              >
-                Continue Shopping
-              </button>
-            </div>
+if (orderSuccess) {
+  return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+      <div className="w-full max-w-2xl bg-white rounded-3xl shadow-2xl p-10 text-center">
+        
+        {/* Success Icon */}
+        <div className="flex justify-center mb-6">
+          <div className="bg-green-100 p-5 rounded-full">
+            <CheckCircle className="h-16 w-16 text-green-600" />
           </div>
         </div>
+
+        {/* Title */}
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-3">
+          Order Placed Successfully!
+        </h2>
+
+        {/* Subtitle */}
+        <p className="text-gray-600 mb-8">
+          Thank you for your purchase. We’ll process your order shortly.
+        </p>
+
+        {/* Order Number */}
+        <div className="bg-gray-50 rounded-2xl p-6 mb-10 border border-gray-200">
+          <p className="text-sm uppercase tracking-wide text-gray-500 mb-2">
+            Order Number
+          </p>
+          <p className="text-2xl font-bold text-red-600 tracking-wider">
+            {orderDetails.orderNumber}
+          </p>
+        </div>
+
+        {/* Buttons */}
+        <div className="space-y-4">
+          <button
+            onClick={() => navigate('/orders')}
+            className="
+              w-full
+              bg-gradient-to-r from-gray-900 to-black
+              text-white
+              py-4
+              rounded-2xl
+              font-semibold
+              hover:from-black hover:to-gray-800
+              transition-all duration-200
+            "
+          >
+            View My Orders
+          </button>
+
+          <button
+            onClick={() => navigate('/')}
+            className="
+              w-full
+              bg-gradient-to-r from-gray-900 to-black
+              text-white
+              py-4
+              rounded-2xl
+              font-semibold
+              hover:from-black hover:to-gray-800
+              transition-all duration-200
+            "
+          >
+            Continue Shopping
+          </button>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
+
 
   if (!currentUser) {
     return (
@@ -182,7 +215,7 @@ const PlaceOrder = () => {
               </div>
               <div className="flex justify-between text-lg font-bold border-t pt-3">
                 <span>Total</span>
-                <span className="text-blue-600">
+                <span className="text-black-600">
                   ${(getCartTotal() + 10 + (getCartTotal() * 0.08)).toFixed(2)}
                 </span>
               </div>
@@ -287,7 +320,7 @@ const PlaceOrder = () => {
               <button
                 type="submit"
                 disabled={loading || cart.length === 0}
-                className="w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white py-3 px-4 rounded-lg font-medium hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 transform hover:-translate-y-0.5"
+                className="w-full bg-black text-white py-3 px-4 rounded-lg font-medium hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 "
               >
                 {loading ? (
                   <div className="flex items-center justify-center">

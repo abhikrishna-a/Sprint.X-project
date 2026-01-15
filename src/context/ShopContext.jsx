@@ -1,6 +1,8 @@
 // context/ShopContext.jsx (updated with analytics)
 import  { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
+import { toast } from "react-toastify";
+
 
 const ShopContext = createContext();
 
@@ -498,33 +500,38 @@ export const ShopProvider = ({ children }) => {
 
   
   const addToCart = (product) => {
-    setCart(prevCart => {
-      const existingItem = prevCart.find(item => item.id === product.id);
-      
-      if (existingItem) {
-        return prevCart.map(item =>
-          item.id === product.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
-      } else {
-        const cartItem = {
-          id: product.id,
-          name: product.name,
-          price: product.price,
-          image: product.image,
-          category: product.category,
-          description: product.description,
-          quantity: 1
-        };
-        return [...prevCart, cartItem];
-      }
-    });
-  };
+  let isExisting = false;
 
-  const removeFromCart = (productId) => {
-    setCart(prevCart => prevCart.filter(item => item.id !== productId));
-  };
+  setCart(prevCart => {
+    const existingItem = prevCart.find(item => item.id === product.id);
+
+    if (existingItem) {
+      isExisting = true;
+      return prevCart.map(item =>
+        item.id === product.id
+          ? { ...item, quantity: item.quantity + 1 }
+          : item
+      );
+    } else {
+      return [...prevCart, { ...product, quantity: 1 }];
+    }
+  });
+
+  // Toast AFTER state logic
+  if (isExisting) {
+    toast.info("Item quantity updated");
+  } else {
+    toast.success("Product added to cart 🛒");
+  }
+};
+
+
+
+ const removeFromCart = (productId) => {
+  setCart(prevCart => prevCart.filter(item => item.id !== productId));
+  toast.warning("Item removed from cart");
+};
+
 
   const updateQuantity = (productId, quantity) => {
     if (quantity < 1) {
@@ -556,27 +563,33 @@ export const ShopProvider = ({ children }) => {
     try {
       const response = await api.get(`/users?email=${email}`);
       
-      if (response.data.length === 0) {
-        return { success: false, message: 'No account found with this email' };
-      }
+       if (response.data.length === 0) {
+      toast.error("No account found with this email");
+      return { success: false };
+    }
       
       const user = response.data[0];
       
-      if (user.password !== password) {
-        return { success: false, message: 'Incorrect password' };
-      }
-      
-      const userData = { 
-        id: user.id, 
-        name: user.name, 
-        email: user.email,
-        role: user.role || 'user'
-      };
+            if (user.password !== password) {
+          toast.error("Incorrect password");
+          return { success: false };
+        }
+
+
+        const userData = {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role || "user",
+    };
+
       
       setCurrentUser(userData);
       localStorage.setItem('user', JSON.stringify(userData));
       
       await loadUserCart(user.id);
+
+      toast.success("Login successful");
       
       return { success: true, user: userData };
     } catch (error) {
@@ -590,8 +603,10 @@ export const ShopProvider = ({ children }) => {
       const existingUsers = await api.get(`/users?email=${userData.email}`);
       
       if (existingUsers.data.length > 0) {
-        return { success: false, message: 'Email already registered' };
-      }
+       toast.error("Email already registered");
+         return { success: false };
+     }
+
       
       const response = await api.post('/users', {
         ...userData,
@@ -616,6 +631,8 @@ export const ShopProvider = ({ children }) => {
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString()
       });
+
+      toast.success("Registration successful 🎉");
       
       return { success: true, user: newUser };
     } catch (error) {
@@ -634,13 +651,15 @@ export const ShopProvider = ({ children }) => {
  
   const placeOrder = async (orderData) => {
     try {
-      if (!currentUser) {
-        return { success: false, message: 'Please login to place order' };
+    if (!currentUser) {
+      toast.info("Please login to place order");
+      return { success: false };
       }
       
       if (cart.length === 0) {
-        return { success: false, message: 'Your cart is empty' };
-      }
+       toast.warning("Your cart is empty");
+       return { success: false };
+       }
 
       const order = {
         userId: currentUser.id,
@@ -660,9 +679,11 @@ export const ShopProvider = ({ children }) => {
 
       const response = await api.post('/orders', order);
       
-      if (response.status === 201) {
-        await clearCartFromServer();
-        clearCart();
+         if (response.status === 201) {
+      await clearCartFromServer();
+      clearCart();
+
+      toast.success("Order placed successfully 🎉");
         return { 
           success: true, 
           orderId: response.data.id,
@@ -671,8 +692,9 @@ export const ShopProvider = ({ children }) => {
       }
     } catch (error) {
       console.error('Order error:', error);
+        toast.error("Failed to place order. Please try again");
     }
-    return { success: false, message: 'Failed to place order' };
+    return { success: false };
   };
 
   const clearCartFromServer = async () => {
